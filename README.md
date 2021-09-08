@@ -11,7 +11,7 @@ To install the latest package, run `npm i asciichart-cli` in your node.js projec
 First, you have to include the package:
 
 ```javascript
-const asciichartCli = require('./chart');
+const asciichartCli = require('asciichart-cli');
 ```
 
 Than, you have to declare an array, for the chart. Every value must be between 0 and 100, this will tell the program, how large one data should be.
