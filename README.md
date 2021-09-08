@@ -25,7 +25,6 @@ Setting up the chart is pretty easy, you can set the the height, by giving a val
 Asciichart-cli is using Chalk for coloring, so you should use their color names (link: https://www.npmjs.com/package/chalk). If you don't set a parameter, it'll use the default settings.
 
 ```javascript
-//sets the width to 100% and the height 60% of the screen
 var chart = new asciichartCli.chart(height, chartCharacter, backgroundCharacter, chartColor, backgroundColor);
 var graphData = chart.createGraph(data);
 ```
