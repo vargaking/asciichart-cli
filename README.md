@@ -14,7 +14,7 @@ First, you have to include the package:
 const asciichartCli = require('asciichart-cli');
 ```
 
-Than, you have to declare an array, for the chart. Every value must be between 0 and 100, this will tell the program, how large one data should be.
+Then, you have to declare an array, for the chart. Every value must be between 0 and 100, this will tell the program, how large one data should be.
 
 ```javascript
 //the first column will be 10% of the chart, the second 50%, etc...
